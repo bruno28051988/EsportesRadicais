@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wakeboard"
+            android:fontFamily="@font/chango_regular"
+            android:textSize="36sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/wakeboard"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="16dp"
+            android:text="O wakeboard é um esporte aquático praticado com uma prancha tipo snowboard, puxado por uma lancha ou sistema de cabos, conhecidos como cable parks e guinchos. Foi inventado nos Estados Unidos e inicialmente praticava-se com uma prancha de surf com fixações. Surgiu como uma alternativa para os surfistas nos dias de pouca onda. Foi assim que surgiu a ideia do wakeboard, mais precisamente no ano de 1979, quando o norte-americano Tony Finn, inventou o 'skurfing', o embrião do esporte.\n\nEssa prática logo se tornou popular no mundo todo, inclusive no Brasil. A partir daí, novos modelos foram sendo construídos e aperfeiçoados, até a chegada, em 1988, da Hyper XP, uma prancha criada pelo norte-americano Herb O Brien e pelo havaiano Eric Perez, capaz de permitir maior velocidade e aproveitamento das manobras. Com essa prancha o havaiano sagrou-se campeão mundial."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="'Jajá do Wake' é campeão brasileiro de Wakeboard, em Minas Gerais"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Amazonense de 13 anos conquistou título na categoria open no início do mês, em Nova Lima, em Minas Gerais"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:scaleType="centerCrop"
+            android:paddingTop="40dp"
+            android:src="@drawable/jaja"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Considerado uma lenda no Wakeboard no cenário Adulto 'Bruno' Bordin "
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Bruno vêm sendo o nome dos campeoanados da liga wakeboard, reconhecido como 'papa-tudo', por ganhar todos os campenados que participa. A frieza de movimentos e a tranquilidade dele é impressionante."
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:scaleType="centerCrop"
+
+            android:src="@drawable/whatsapp"/>
+
+
+    </LinearLayout>
+</ScrollView>
